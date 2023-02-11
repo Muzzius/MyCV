@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>mySite Homepage</title>
+</head>
+
+<body>
+<div class="container">
+    <!-- Introduction and contact details -->
+    <div class="row">
+        <div class="col-4">
+            <h4>Hello, my name is</h4>
+            <h1>Murray Bosworth</h1>
+        </div>
+    </div>
+
+    <div class="row mt-1">
+        <div class="col">
+            <!--This paragraph contains my contact details-->
+            Address: 95 Hillsway, Littleover, Derby DE23 3DX<br>
+            Telephone: 07908 545 481<br>
+        </div>
+    </div>
+
+    <!-- Button to email me -->
+    <div class="row mt-2">
+        <div class="col-4">
+            <a class="btn btn-info" target = "_blank" href="mailto:murraybosworth@gmail.com" role="button">
+                Email Me
+            </a>
+        </div>
+    </div>
+
+    <!-- About me section -->
+    <div class="row mt-5">
+        <div class="col-8">
+            <h2>About Me</h2>
+            <p>I am currently an accounts payable executive of seven years. I am planning on a career change, and
+                to work towards this I am undertaking a programming bootcamp, with the and goal of entering into a new
+                career in software development.</p>
+            <p>Before my current role I had worked for a brief stint at ASDA after graduating from University with a
+            degree in physics but with no real plans for what I would do after uni.</p>
+            <p>Outside of work I enjoy spending time with my friends. I am a computer enthusiast and I have built my own
+                gaming PC. I also enjoy unwinding by painting miniature models in my free time.</p>
+        </div>
+        <!-- Add a photo of myself -->
+        <div class="col-4">
+            <img src = "{% static 'assets/MurrayBosworth.png' %}" alt="Picture of me">
+        </div>
+    </div>
+
+
+    <div class="row mt-5 justify-content-center text-center">
+        <div class="col">
+            <h2>Employment History</h2>
+        </div>
+    </div>
+    <div class="row mt-3 justify-content-center text-center">
+        <div class="col">
+            <h4>Accounts payable executive | AJR management ltd | 10/02/2016 - PRESENT</h4>
+            <ul>
+                <!--A list of tasks performed in my current role-->
+                <li> Process large volumes of invoices for payment </li>
+                <li> Produce client reports using Microsoft Excel and Word </li>
+                <li> Liaise between clients and customers and utility providers </li>
+                <li> Manage debt reports on behalf of clients </li>
+                <li> Work as part of a team ensuring the daily workload is managed effectively </li>
+            </ul>
+        </div>
+        <div class="col">
+            <h4>Chilled Produce Colleague | ASDA/Walmart | 07/2014 – 02/2016</h4>
+            <ul>
+                <!--My tasks in my previous role at ASDA listed-->
+                <li> Managed own workload to ensure availability of produce </li>
+                <li> Worked as part of a team to complete tasks, often to tight deadlines </li>
+                <li> Performed all duties required of the role including shelf stocking, keeping all areas clean and presentable to customers and organizing stock </li>
+                <li> Supported and advised customers as required </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row mt-5 justify-content-center text-center">
+        <div class="col">
+            <h2>Education</h2>
+        </div>
+    </div>
+    <!--This section includes my education history-->
+    <div class="row mt-3 justify-content-center text-center">
+        <div class="col-3">
+            <h4>Degree</h4>
+            <ul>
+                <li>MSci (Hons) Physics 2:1</li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <h4>A Levels</h4>
+            <ul>
+                <li>Maths Grade A</li>
+                <li>Physics Grade B</li>
+                <li>Chemistry Grade B</li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <h4>GCSEs</h4>
+            <ul>
+                <li>English Language Grade B</li>
+                <li>English Literature Grade B</li>
+                <li>Mathematics Grade A</li>
+                <li>Additional Mathematics A</li>
+                <li>Science A</li>
+                <li>Additional Science A*</li>
+                <li>Geography C</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row mt-5 justify-content-center text-center">
+        <div class="col">
+            <h2>Skills & Abilities</h2>
+        </div>
+    </div>
+    <!--A list of my skills and abilities-->
+    <div class="row mt-3 justify-content-center text-center">
+        <div class="col">
+            <ul>
+                <li>Positive attitude to work</li>
+                <li>Flexibility</li>
+                <li>Able to adhere to procedures and processes</li>
+                <li>Ability to work using own initiative</li>
+                <li>Ability to work as a supportive team member</li>
+                <li>Excellent communication skills</li>
+                <li>Experienced in the use of various IT software packages including Microsoft Word/Excel</li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
