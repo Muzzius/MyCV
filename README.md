@@ -4,7 +4,7 @@
 This is a site created as a personal resumé. It includes a brief personal description and lists my work history, qualifications and skills.
 
 ## Installation
-Download the files to wherever you would like on your pc, ensuring the folder structure is preserver otherwise images won't work.
+Download the files to wherever you would like on your pc, ensuring the folder structure is preserved otherwise image won't load.
 
 ## Usage
 If you open the index.html folder using a browser it will display the site, it should look like this:
